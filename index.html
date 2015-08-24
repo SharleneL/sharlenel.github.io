@@ -1,20 +1,277 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Meet Shalin</title>
-    <link rel="stylesheet" href="#.css">
-    <script src="#.js"></script>
+  <meta charset="UTF-8">
+  <title>Shalin Luo</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,500,700,300italic,100italic' rel='stylesheet'
+        type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 </head>
 <body>
-    <header>header</header>
-        <nav>nav</nav>
-        <article>
-            <section>
-            section section
-            </section>
-        </article>
-        <aside>aside</aside>
-    <footer>footer</footer>
+
+<div id="sidebar">
+  <div id="side-img">
+    <div id="side-img-container">
+      <img src="images/profile.jpg" alt="Shalin Luo"/>
+    </div>
+  </div>
+  <div id="side-content">
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#honor">Honors</a></li>
+    </ul>
+  </div>
+  <div id="side-contacts">
+    <ul>
+      <li><a href="https://www.facebook.com/profile.php?id=100004117933001"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/shalinluo"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="content">
+  <a name="introduction">
+    <div id="intro">
+      <p><strong>Welcome.</strong></p>
+
+      <p>
+        I am <strong>Shalin Luo</strong>, a current student in Master of Intelligent Information Systems in Carnegie
+        Mellon University.
+      </p>
+    </div>
+  </a>
+
+  <a name="education">
+    <div class="content-info">
+      <h1>Education</h1>
+      <ul>
+        <li>
+          <p><strong>09/2015 ~ present</strong></p>
+
+          <p>Master of Intelligent Information Systems</p>
+
+          <p>Language Technology Institute, Carnegie Mellon University</p>
+        </li>
+
+        <li>
+          <p><strong>09/2011 ~ 07/2015</strong></p>
+
+          <p>B.S. in Software Engineering (3.77/4.0)</p>
+
+          <p>School of Computer Science and Software Engineering, Zhejiang University, China</p>
+        </li>
+      </ul>
+    </div>
+  </a>
+
+  <a name="skill">
+    <div class="content-info" id="skill">
+      <h1>Skills</h1>
+
+      <span>Python</span>
+      <span>Java</span>
+      <span>JavaScript</span>
+      <span>AngularJS</span>
+      <span>Restful Web Services</span>
+      <span>CSS</span>
+      <span>Gulp</span>
+      <span>Project Management</span>
+
+    </div>
+  </a>
+
+  <a name="project">
+    <div class="content-info">
+      <h1>Projects</h1>
+
+      <ul>
+        <li>
+          <p><strong>Office Beacon | October 2014 ~ June 2015</strong></p>
+
+          <p><i>Cisco Systems, San Jose, CA, USA</i></p>
+          <ul>
+            <li>Developed iOS Application (Objective-C + Node.js + MongoDB); locate users, transmit message using
+              iBeacon and Cisco CMX.
+            </li>
+            <li>Implement data collection, mining and visualization for user location tracking.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Product Comparison Tool | July 2014 ~ September 2014</strong></p>
+
+          <p><i>Cisco Systems, San Jose, CA, USA</i></p>
+          <ul>
+            <li>Online sales strategy tool for Cisco products, based on MEAN stack
+              (MongoDB+Express+AngularJS+Node.js).
+            </li>
+            <li>Worked as an AngularJS developer in an agile development team; completed two core project sprints.</li>
+            <li>Conducted project management with tool Rally through the participation of daily scrums.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Product Luthor – Business Strategy Forecast Website | July 2014 ~ September 2014</strong></p>
+
+          <p><i>Cisco Systems, San Jose, CA, USA</i></p>
+          <ul>
+            <li>Online data visualization tool to forecast the business strategy based on the analysis of big data and
+              NLP (R+lexalytics+D3.js).
+            </li>
+            <li>Participated system design; used OpenNLP to do entity extraction.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Product Price Comparison Website | June 2014</strong></p>
+
+          <p><i>Zhejiang University, Hangzhou, China</i></p>
+          <ul>
+            <li>A website enabling users to search for a product's best price from several mainstream online shopping
+              websites (Bootstrap + PHP + MySQL).
+            </li>
+            <li>Developed web crawler to extract products'​ information from different websites'​ searching results
+              based on the users' inputs.
+            </li>
+            <li>Designed and manipulated the database; completed both the back-end and front-end development of the
+              website.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Draw and Guess Multiplayer Online Game | October 2013 ~ January 2014</strong></p>
+
+          <p><i>Zhejiang University, Hangzhou, China</i></p>
+          <ul>
+            <li>A multiplayer online game, supporting real-time chat and collaborative drawing (Java).</li>
+            <li>Defined the user cases of the project; designed and developed the UI of the game; learnt to use socket
+              to realize clients’ communication.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>MiniSQL Database Engine | October 2013 ~ December 2013</strong></p>
+
+          <p><i>Zhejiang University, Hangzhou, China</i></p>
+          <ul>
+            <li>A database system with B+ tree index, supporting basic SQL queries (C++).</li>
+            <li>Developed database buffer and API.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>CEP (Complex Event Processing) Stock Market Monitoring System | October 2013</strong></p>
+
+          <p><i>Zhejiang University, Hangzhou, China</i></p>
+          <ul>
+            <li>Employed Esper CEP (Complex Event Processing) engine to analyze the real-time data flow from stock
+              market API (Java).
+            </li>
+            <li>Defined complex event using EPL (Event Processing Language); developed system website.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </a>
+
+  <a name="experience">
+    <div class="content-info">
+      <h1>Experience</h1>
+
+      <ul>
+        <li>
+          <p><strong>Software Engineer Intern | August 2014 – July 2015</strong></p>
+
+          <p><i>Chief Technology Architecture Office, Cisco Systems, San Jose, USA</i></p>
+          <ul>
+            <li>Mainly focused on the front end development of several websites, including the dashboard for an IoT
+              application, and a web-based tool for Cisco products'​ comparison.
+            </li>
+            <li>
+              Also worked on the following areas:
+              <ol>
+                <li>Developed a location-based mobile iOS application, using iBeacon for a higher precision, while
+                  integrating with CMX (Cisco's indoor location system).
+                </li>
+                <li>Learnt to extract key words from descriptive text paragraphs, in order to know the potential winning
+                  reasons in a public vote.
+                </li>
+                <li>Wrote sample code as CMX's application demo.</li>
+                <li>Wrote online tutorials for NeXt, Cisco's JavaScript framework for network topology.</li>
+                <li>Helped with the project management of an agile development team, divide tasks and track development
+                  process for 2 sprints.
+                </li>
+                <li>Helped with the maintenance of Barbarians, Cisco's global sales competition.</li>
+                <li>Attended Ciscolive conference in San Diego, CA; worked as the presenter for IoT and DMo
+                  applications.
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Research Intern | August 2013</strong></p>
+
+          <p><i>Software Institute, Peking University, Beijing, China</i></p>
+          <ul>
+            <li>
+              Worked as research assistant in Software Engineering Institute; learnt basic tools (Resource Description
+              Framework, OWL Web Ontology Language) for Semantic Web.
+            </li>
+            <li>
+              Participated the testing of a question answering web system for disease treatment.
+            </li>
+            <li>
+              Translated two papers related to the discovery of domain hyponymy hierarchy based on iterative web
+              searching.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Exchange Student | August 2013</strong></p>
+
+          <p><i>University of California, Los Angeles, CA, USA (4.0/4.0)</i></p>
+          <ul>
+            <li>
+              Enrolled in courses during 2012 summer session.
+            </li>
+            <li>
+              Organized Chinese Cultural Campus Salon together with other exchange students in UCLA.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </a>
+
+  <a name="honor">
+    <div id="honor">
+      <h1>Honors</h1>
+      <ul>
+      <li>Outstanding Graduate Student of Zhejiang Province | July 2015</li>
+
+      <li>First-class Scholarship for Internship | July 2015</li>
+
+      <li>Excellent Engineering Scholarship | May 2015</li>
+
+      <li>The Google Anita Borg Memorial Scholarship (Female Engineering Scholarship) | May 2014</li>
+
+      <li>COMAP(the Consortium for Mathematics and Its Application) | March 2014</li>
+
+      <li>The Excellent Cadre of Students | September 2013</li>
+      </ul>
+    </div>
+  </a>
+
+  <div id="footer">
+    <div id="footer-content">Copyright&copy;Shalin Luo - 2015</div>
+  </div>
+</div>
+
+
+
 </body>
 </html>
