@@ -2,6 +2,13 @@ body {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
+.xlarge {
+  font-size: x-large;
+}
+.large {
+  font-size: large;
+}
+
 #sidebar {
   width: 25%;
   height: 100%;
@@ -63,15 +70,18 @@ body {
   color: white;
 }
 
-#side-contacts {
-  width: inherit;
-  margin: 0;
-  padding: 5%;
+#side-contacts ul {
+  text-align: center;
+  padding: 0;
+  margin-top: 40%;
 }
 
 #side-contacts ul li {
-  display: inline;
+  display: inline-block;
+  float: none;
   list-style: none;
+  width: inherit;
+  margin: 0 1%;
 }
 
 #side-contacts a {
